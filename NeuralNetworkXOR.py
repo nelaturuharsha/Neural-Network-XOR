@@ -1,5 +1,5 @@
 import numpy as np
-
+import time
 
 def sigmoid(x): #Defining the sigmoid function for computation
     return 1.0/(1.0 + np.exp(-x))
@@ -75,7 +75,10 @@ if __name__ == '__main__':
         elif nn.getOutput()[0] < 0.2:
             print 'FALSE'
 
-    print
+						
+t_start = time.clock()
+    
+		print
     count += 1
 
 
