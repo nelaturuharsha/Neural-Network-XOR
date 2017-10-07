@@ -75,12 +75,6 @@ if __name__ == '__main__':
         elif nn.getOutput()[0] < 0.2:
             print 'FALSE'
 
-						
-t_start = time.clock()
-    
-		print
-    count += 1
-
 
 
 
