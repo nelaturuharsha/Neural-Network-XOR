@@ -3,8 +3,6 @@ import time
 
 def sigmoid(x): #Defining the sigmoid function for computation
     return 1.0/(1.0 + np.exp(-x))
-def sigmoid_prime(x):
-    return sigmoid(x) * (1 - sigmoid(x))
 
 class NeuralNetworkXOR: #Class to be called for initializing the Neural Network
 
